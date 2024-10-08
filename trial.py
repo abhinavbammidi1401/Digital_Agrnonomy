@@ -53,9 +53,9 @@ class Contact(db.Model):
     message = db.Column(db.Text, nullable=False)
 
 # Load the model and scalers
-model = pickle.load(open('D:/Abhinav/Test/CRSystem/model.pkl', 'rb'))
-sc = pickle.load(open('D:/Abhinav/Test/CRSystem/standscaler.pkl', 'rb'))
-ms = pickle.load(open('D:/Abhinav/Test/CRSystem/minmaxscaler.pkl', 'rb'))
+model = pickle.load(open('D:/Abhinav/Test/Digital_Agronomy/model/model.pkl', 'rb'))
+sc = pickle.load(open('D:/Abhinav/Test/Digital_Agronomy/modelstandscaler.pkl', 'rb'))
+ms = pickle.load(open('D:/Abhinav/Test/Digital_Agronomy/modelminmaxscaler.pkl', 'rb'))
 
 @app.route('/')
 def index():
