@@ -25,23 +25,28 @@ The system takes into account several factors such as soil type, climate, rainfa
 - Clone the repository
 ```bash
 git clone https://github.com/your-username/Digital_Agronomy
-cd Digital_Agronomy
 ```
+
 - Install the required dependencies: pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
 - Run the application: python app.py
+```bash
+cd Digital_Agronomy
+python app.py
+```
+
 
 # Future Enhancements
-Integration of real-time weather data to improve the accuracy of recommendations.
-Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
-Development of a mobile application for convenient access and usage on smartphones and tablets.
-Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
-Contributing
+- Integration of real-time weather data to improve the accuracy of recommendations.
+- Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
+- Development of a mobile application for convenient access and usage on smartphones and tablets.
+- Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
+
+# Contributing
 Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please submit them through the issue tracker on the GitHub repository.
 
-
-
 # Acknowledgements
-We would like to express our gratitude to the agricultural research community, farmers, and organizations for providing valuable insights, data, and domain knowledge that contributed to the development of this Crop Recommendation System.
-
-# Contact
-For any inquiries or questions, please contact us at 611noorsaeed@gmail.com
+We would like to express our gratitude to the agricultural research community, farmers, and organizations for providing valuable insights, data, and domain knowledge that contributed to the development of this system.
