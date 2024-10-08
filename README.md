@@ -38,7 +38,8 @@ cd Digital_Agronomy
 python app.py
 ```
 
-Note: If you are just cloning the repository and trying to run the code without any edits, it **WILL NOT RUN**. You have to complete the database setup and everyhting else that is required for the backend to run. The code is written to work with my setup, hence it won't run. And also don't forget to update the filepaths. That is probably the main thing that will throw errors if everything else is setup properly.
+# Important
+If you are just cloning the repository and trying to run the code without any edits, it **WILL NOT RUN**. You have to complete the database setup and everyhting else that is required for the backend to run. The code is written to work with my setup, hence it won't run. And also don't forget to update the filepaths. That is probably the main thing that will throw errors if everything else is setup properly.
 
 # Future Enhancements
 - Integration of real-time weather data to improve the accuracy of recommendations.
